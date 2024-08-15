@@ -1,1 +1,3 @@
 # Route-Clustering-and-Prediction
+# Overview
+This project implements a comprehensive approach to clustering and predicting flight trajectories using both traditional and deep learning methods. The steps include clustering trajectories using K-means, DBSCAN, Hierarchical clustering, and deep learning-based methods. After identifying the best clustering approach via hyperparameter tuning (where hierarchical clustering was found to be the best), we proceed to predict trajectory points using LSTM (Long Short-Term Memory) and CNN-LSTM (Convolutional Neural Network combined with LSTM) models. Finally, we enhance prediction accuracy using ensemble techniques.
